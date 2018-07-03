@@ -585,8 +585,8 @@ a:hover {
   color: #dfd9c6;
 }
 /* Scroll to top button*/
-.scrollToTop_wraper {
-  display: none;
+#scrollToTop a {
+  border-radius: 100px;
 }
 #scrollToTop a i:before {
   content: '';
@@ -1385,4 +1385,16 @@ body {
 .cid-qWJYn4454t .mbr-section-btn {
   color: #232323;
   text-align: center;
+}
+.cid-qWKimfThqU {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background: linear-gradient(0deg, #232323, #6670a9);
+}
+.cid-qWKimfThqU .mbr-iconfont-social {
+  font-size: 32px;
+  color: #ff3366;
+}
+.cid-qWKimfThqU .social-list a:focus {
+  text-decoration: none;
 }
